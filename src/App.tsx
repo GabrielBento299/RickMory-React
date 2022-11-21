@@ -1,8 +1,14 @@
-import React from 'react'
+import Application from "./components/Apllication";
+import GlobalStyle from "./styles/global";
+
+
 
 const App = () => {
   return (
-    <div>App</div>
+    <>
+        <GlobalStyle />
+        <Application />
+    </>
   )
 }
 
