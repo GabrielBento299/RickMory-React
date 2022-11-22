@@ -6,6 +6,15 @@ export const Container = styled.div`
     border-radius: 7px;
     background-color: #151020;
 
+    cursor: pointer;
+
+    transition: transform, filter, 0.4s ease;
+
+    &:hover {
+        filter: brightness(1.07);
+        transform: scale(1.07);
+    }
+
     .image {
         width: 100%;
         height: 24.4rem;

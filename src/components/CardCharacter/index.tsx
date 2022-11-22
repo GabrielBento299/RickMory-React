@@ -1,15 +1,16 @@
 import { Container } from './styles';
 
-export interface IProps {
-    id: string;
+export interface ICharacterProps {
     image: string;
     name:string;
-    genre: string;
-    specie: string;
+    gender: string;
+    species: string;
+    location: string;
 }
 
-const CardCharacter = ({image, name, genre, specie}: IProps) => {
+const CardCharacter = ({image, name, gender, species, location}: ICharacterProps) => {
   return (
+
     <Container>
         <div className="image">
             <img src={image} alt={name} />
@@ -17,9 +18,10 @@ const CardCharacter = ({image, name, genre, specie}: IProps) => {
 
         <div className="info">
             <h3>{name}</h3>
+            <h3>{location}</h3>
             <ul>
-                <li>Gênero: {genre} </li>
-                <li>Espécie: {specie}</li>
+                <li>Gênero: {gender} </li>
+                <li>Espécie: {species}</li>
             </ul>
         </div>
     </Container>
