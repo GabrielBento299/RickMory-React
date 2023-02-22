@@ -1,6 +1,9 @@
 # RickMory-React
 Projeto desenvolvido utilizando typescript com styled components  consumindo a API do Rick and Morty.
 
+<p>Link do projeto está no meu portfólio "https://my-portifolio-flax.vercel.app/#portifolio"</p>
+
+
 ![Captura de Tela (21)](https://user-images.githubusercontent.com/86307663/203393018-ad08919e-3140-4596-ad31-08b7d9c001a9.png)
 
 
